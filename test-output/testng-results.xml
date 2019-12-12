@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Keyword API Automation" duration-ms="9117" started-at="2019-12-11T21:14:33 PKT" finished-at="2019-12-11T21:14:42 PKT">
+    <groups>
+    </groups>
+    <test name="TEST 1" duration-ms="9117" started-at="2019-12-11T21:14:33 PKT" finished-at="2019-12-11T21:14:42 PKT">
+      <class name="module.Tests">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:module.Tests@69997e9d]" name="startReport" is-config="true" duration-ms="73" started-at="2019-12-11T21:14:33 PKT" finished-at="2019-12-11T21:14:33 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:module.Tests@69997e9d]" name="setup" is-config="true" duration-ms="808" started-at="2019-12-11T21:14:33 PKT" finished-at="2019-12-11T21:14:34 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void module.Tests.compare()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@29138d3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="compare()[pri:0, instance:module.Tests@69997e9d]" name="compare" duration-ms="8287" started-at="2019-12-11T21:14:34 PKT" finished-at="2019-12-11T21:14:42 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compare -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:module.Tests@69997e9d]" name="tearDown" is-config="true" duration-ms="2" started-at="2019-12-11T21:14:42 PKT" finished-at="2019-12-11T21:14:42 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compare status=SUCCESS method=Tests.compare()[pri:0, instance:module.Tests@69997e9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:module.Tests@69997e9d]" name="endReport" is-config="true" duration-ms="170" started-at="2019-12-11T21:14:42 PKT" finished-at="2019-12-11T21:14:42 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- module.Tests -->
+    </test> <!-- TEST 1 -->
+  </suite> <!-- Keyword API Automation -->
+</testng-results>

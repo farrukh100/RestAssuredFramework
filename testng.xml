@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Keyword API Automation">
+<!--<suite name="Keyword API Automation - PARALLEL-METHODS VERBOSE-2" parallel="methods" verbose="2" >-->
+<!--<suite name="Keyword API Automation - PARALLEL-METHODS THREAD_COUNT-2" parallel="methods" thread-count="2">-->
+    <listeners>
+        <listener
+                class-name="core.util.AnnotationTransformerImpl"/>
+    </listeners>
+    <test name="TEST 1">
+        <classes>
+            <class name="module.Tests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
